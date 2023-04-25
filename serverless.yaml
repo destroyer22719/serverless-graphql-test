@@ -11,6 +11,7 @@ plugins:
 
 functions:
   app:
-    handler: express-graphql.handler
+    # handler: express-graphql.handler
+    handler: graphql-http.handler
     events:
       - httpApi: "*"
